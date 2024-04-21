@@ -1,4 +1,4 @@
-/**
+GU1/**
 
 * @project_name : SIGMA-MD
 * @Developer : Maher-Zubair
@@ -40,8 +40,8 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
-global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.owner = process.env.OWNER_NUMBER  || '923705084200' ;  // ADD YOUR NUMBER WITHOUT +
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://iamroot:iamroot@cluster0.u14uxpp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERRORS
 //=================================================================================
 
